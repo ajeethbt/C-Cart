@@ -20,7 +20,7 @@ struct cart  {
 int item_add(){
 
    printf("\n adding items\n");
-   scanf("%s %d %d",&item[item_count].name_item,&item[item_count].item_serial, &item[item_count].item_quantity);
+   scanf("%s %d %d",item[item_count].name_item,&item[item_count].item_serial, &item[item_count].item_quantity);
    item_count++;
 }
 //Prints the item values
